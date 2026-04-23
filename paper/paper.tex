@@ -7,7 +7,6 @@
 \usepackage{booktabs}
 \usepackage{hyperref}
 \usepackage{microtype}
-\usepackage{xcolor}
 \usepackage{listings}
 \usepackage{caption}
 \usepackage{subcaption}
@@ -28,7 +27,6 @@
 \date{\today}
 
 % ── helpers ───────────────────────────────────────────────────────────────
-\newcommand{\todo}[1]{\textcolor{red}{\textbf{[TODO: #1]}}}
 \newcommand{\etal}{\textit{et al.}}
 \newcommand{\bytegrid}{\textsc{ANE-ByteGrid}}
 
@@ -345,7 +343,8 @@ format for validation on the ANE runtime.
 \section{Experiments}
 \label{sec:experiments}
 
-\todo{Add masked byte prediction loss curves once training converges.}
+Figure~\ref{fig:loss} reports the finalized masked-byte training and
+evaluation loss trajectories through step 500{,}000.
 
 \subsection{Throughput: ByteGrid vs Transformer Baseline}
 
