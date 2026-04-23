@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Build outputs
+build/
+
+# Training artifacts
+weights_probe/
+weights_probe_baseline/
+*.pt
+
+# ANE weight blobs (generated)
+weights/
+
+# Logs and temp
+*.log
+*.tmp
+/tmp/
+
+# VS Code
+.vscode/
